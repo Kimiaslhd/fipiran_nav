@@ -6,6 +6,8 @@ Simple Python library to fetch Iranian fund NAV data from Fipiran API.
 
 ```bash
 pip install fipiran-nav
+```
+
 
 ## Usage
 Save a CSV file on your Desktop by calling `fipiran_nav.fetch_csv()` with start and end dates. For example:
