@@ -15,5 +15,7 @@ After instaling the library, you can simply use command/python to choose you des
 as an example, after Installation, you can type these simple lines in your command prompt to have a csv file containing the data for 2025-01-01 until 2025-01-05, saved on your desktop:
 ```bash
 python
+import fipiran_nav
+from fipiran_nav import fetch_csv
 fipiran_nav.fetch_csv("2025-01-01", "2025-01-05")
 ```
