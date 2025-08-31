@@ -3,9 +3,11 @@
 Simple Python library to fetch Iranian fund NAV data from Fipiran API.
 
 ## Installation
+first make sure you have the latest python and pip modulo installed.
+
 type this line in your Command prompt, to install the library:
 ```bash
-pip install fipiran-nav
+pip install fipiran_nav
 ```
 
 
