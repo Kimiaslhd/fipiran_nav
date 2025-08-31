@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="fipiran-nav",
-    version="1.0.0",
-    author="Kimi2 Salehy Delarestaghy",
+    name="fipiran_nav",
+    version="1.0.2",
+    author="Kimia Salehy Delarestaghy",
     author_email="kimiaslhd@gmail.com",
     description="Simple library to fetch Iranian fund data",
     url="https://github.com/Kimiaslhd/fipiran_nav",
