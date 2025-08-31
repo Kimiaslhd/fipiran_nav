@@ -1,4 +1,4 @@
-# fipiran-nav
+# fipiran_nav
 
 Simple Python library to fetch Iranian fund NAV data from Fipiran API.
 
