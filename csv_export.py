@@ -13,7 +13,7 @@ def fetch_csv(start_date, end_date, file_path=None):
         print("No data found")
         return None
     
-    with open(file_path, 'w', newline='', encoding='utf-8') as f:
+    with open(file_path, 'w', newline='', encoding='utf-8-sig') as f:
         writer = csv.writer(f)
         
         headers = list(data[0].keys())
@@ -23,4 +23,5 @@ def fetch_csv(start_date, end_date, file_path=None):
             writer.writerow(record.values())
     
     print(f"Saved {len(data)} records to: {file_path}")
+
     return file_path
