@@ -13,7 +13,7 @@ def get_all_dates(start_date, end_date):
     return dates
 
 def fetch_api_data(date_str):
-    url = f"https://fund.fipiran.ir/api/v1/fund/fundcompare?date={date_str}"
+    url = f"https://fipiran.ir/services/fund/fundcompare?date={date_str}"
     
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
@@ -40,4 +40,5 @@ def fetch_date_range(start_date, end_date):
             item['fetch_date'] = date_str
         all_data.extend(items)
     
+
     return all_data
